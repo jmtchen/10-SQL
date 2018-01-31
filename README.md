@@ -3,8 +3,8 @@
     SELECT first_name, last_name FROM actor;
 
 1b)
-
-    SELECT CONCAT()UPPER(first_name), ' ', UPPER(last_name)) AS Actor_Name FROM actor;
+sql
+    SELECT CONCAT(UPPER(first_name), ' ', UPPER(last_name)) AS Actor_Name FROM actor;
 
 2a)
 
